@@ -1,0 +1,20 @@
+{
+  "name": "cross-browser-consent",
+  "version": "1.0.0",
+  "description": "This is a test to see if using a cross browser request is possible via react and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blubagoo/cross-browser-consent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blubagoo/cross-browser-consent/issues"
+  },
+  "homepage": "https://github.com/Blubagoo/cross-browser-consent#readme"
+}
