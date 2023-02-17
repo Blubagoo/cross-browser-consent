@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
   console.log('req', req.body)
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+app.listen(process.env.PORT || port, () => {
+  console.log(`Example app listening on port ${process.env.PORT || port}`)
 })
