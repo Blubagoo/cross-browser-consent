@@ -6,7 +6,7 @@ const port = 3000
 
 
 app.post('/', (req, res) => {
-  console.log('req', req)
+  console.log('req', req.body)
   return res.json({}).status(200)
 })
 
