@@ -5,7 +5,7 @@ const app = express()
 const port = 3000
 
 
-app.get('/', (req, res) => {
+app.post('/', (req, res) => {
   console.log('req', req.body)
   return res.json({}).status(200)
 })
