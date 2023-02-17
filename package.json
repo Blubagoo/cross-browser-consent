@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Blubagoo/cross-browser-consent/issues"
   },
-  "homepage": "https://github.com/Blubagoo/cross-browser-consent#readme"
+  "homepage": "https://github.com/Blubagoo/cross-browser-consent#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
