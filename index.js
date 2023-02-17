@@ -7,6 +7,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
   console.log('req', req.body)
+  return res.json({}).status(200)
 })
 
 app.listen(process.env.PORT || port, () => {
